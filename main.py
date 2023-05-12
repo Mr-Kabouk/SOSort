@@ -28,7 +28,7 @@ def query_2(filename):
 
 def main():
     output_1 = query_1("sample2.flac")
-    output_2 = query_2("sample2.mp3")
+    output_2 = query_2("sample1.mp3")
     print(output_1)
     print(output_2)
 
@@ -48,6 +48,7 @@ def main():
     EmergencyCall_test.urgency_check()
     EmergencyCall_test.update_key_words_recognized(key_word_list)
     EmergencyCall_test.print_emergency()
+    EmergencyCall_test.to_json("test.txt")
 
 if __name__ == '__main__':
     main()

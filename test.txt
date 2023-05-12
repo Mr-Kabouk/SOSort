@@ -1,0 +1,1 @@
+{"Reason of call": ["Fire", "Emergency"], "Summary": "HELLO NINE ONE ONE I HAVE AN EMERGENCY MY HOUSE IS ON FIRE"}
